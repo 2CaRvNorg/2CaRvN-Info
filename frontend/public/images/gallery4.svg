@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0b0f19"/>
+  <rect x="120" y="140" width="960" height="520" rx="30" fill="#141a26"/>
+  <path d="M220 560c80-140 140-240 260-240s180 70 280 140 180 100 280 100" stroke="#ff6b00" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <circle cx="350" cy="320" r="80" fill="#ff8a00"/>
+  <text x="220" y="650" fill="#ffffff" font-family="Poppins, Arial, sans-serif" font-size="44" font-weight="700">Presentation Day</text>
+</svg>

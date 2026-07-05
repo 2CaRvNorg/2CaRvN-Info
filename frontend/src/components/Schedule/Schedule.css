@@ -1,0 +1,116 @@
+.schedule-section {
+  padding: 5rem 0;
+}
+
+.schedule-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.schedule-highlight {
+  padding: 1.25rem;
+  border-radius: 1.4rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.schedule-highlight h3,
+.timeline-card h3 {
+  margin: 0 0 0.25rem;
+  color: var(--white);
+}
+
+.schedule-highlight p,
+.timeline-card p {
+  margin: 0;
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.timeline-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.1rem 1.2rem;
+  border-radius: 1.2rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.timeline-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+  color: white;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.timeline-month {
+  color: #ffb067;
+  margin: 0 0 0.25rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.timeline-card h3 {
+  margin: 0 0 0.25rem;
+  color: var(--white);
+}
+
+.timeline-card p {
+  margin: 0;
+  color: var(--text-gray);
+  line-height: 1.6;
+}
+
+.schedule-footer {
+  margin-top: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.schedule-footer > div {
+  padding: 1rem 1.2rem;
+  border-radius: 1rem;
+  background: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.schedule-footer h3 {
+  margin: 0 0 0.4rem;
+  color: var(--white);
+}
+
+.schedule-footer p {
+  margin: 0;
+  color: var(--text-gray);
+}
+
+@media (max-width: 900px) {
+  .schedule-highlights,
+  .timeline,
+  .schedule-footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .schedule-highlights,
+  .timeline,
+  .schedule-footer {
+    grid-template-columns: 1fr;
+  }
+}

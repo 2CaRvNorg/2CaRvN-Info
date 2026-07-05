@@ -1,0 +1,32 @@
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 2.25rem;
+}
+
+.section-header.center {
+  align-items: center;
+  text-align: center;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.section-header h2 {
+  font-size: clamp(2rem, 2.8vw, 2.8rem);
+  margin: 0;
+  color: var(--white);
+}
+
+.section-description {
+  max-width: 42rem;
+  color: var(--text-gray);
+  font-size: 1rem;
+  line-height: 1.7;
+}

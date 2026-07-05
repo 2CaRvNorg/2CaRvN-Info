@@ -1,0 +1,106 @@
+.about-section {
+  padding: 6rem 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.about-media {
+  position: relative;
+  min-height: 32rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 0 35px 70px rgba(0,0,0,0.22);
+}
+
+.about-media img,
+.about-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-video {
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.about-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-blurb {
+  display: grid;
+  gap: 1rem;
+}
+
+.about-blurb > div {
+  padding: 1rem 1.15rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.about-blurb h3 {
+  color: var(--white);
+  margin: 0 0 0.35rem;
+}
+
+.about-blurb p {
+  color: var(--text-gray);
+  line-height: 1.7;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.feature-card {
+  padding: 1.15rem;
+  border-radius: 1rem;
+  background: linear-gradient(145deg, rgba(255,255,255,0.05), rgba(255,255,255,0.025));
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(255, 107, 0, 0.45);
+}
+
+.feature-card h4 {
+  color: var(--white);
+  margin: 0 0 0.35rem;
+}
+
+.feature-card p {
+  color: var(--text-gray);
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-media {
+    min-height: 24rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#141a26"/>
+  <rect x="140" y="120" width="920" height="560" rx="34" fill="#0b0f19"/>
+  <rect x="220" y="220" width="760" height="220" rx="28" fill="#ff6b00"/>
+  <rect x="220" y="480" width="500" height="90" rx="18" fill="#ffffff" fill-opacity="0.14"/>
+  <text x="220" y="660" fill="#ffffff" font-family="Poppins, Arial, sans-serif" font-size="44" font-weight="700">Certificate Celebration</text>
+</svg>
