@@ -14,6 +14,9 @@
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
   transition: transform 0.25s ease;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .faculty-card:hover {
@@ -23,8 +26,9 @@
 .faculty-image-wrap {
   overflow: hidden;
   border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
+  width: min(8rem, 70vw);
+  height: min(8rem, 70vw);
+  aspect-ratio: 1;
   margin: 0 auto 1rem;
   border: 3px solid rgba(255,107,0,0.25);
 }
