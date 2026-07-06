@@ -62,7 +62,26 @@
 }
 
 @media (max-width: 640px) {
+  .admissions-section {
+    padding: 4rem 0;
+  }
+
+  .admissions-card {
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+  }
+
   .admissions-form {
     grid-template-columns: 1fr;
+  }
+
+  .admissions-form input,
+  .admissions-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .admissions-form button {
+    width: 100%;
   }
 }

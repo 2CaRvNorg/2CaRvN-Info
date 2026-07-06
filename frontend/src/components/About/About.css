@@ -100,7 +100,24 @@
 }
 
 @media (max-width: 640px) {
+  .about-section {
+    padding: 4.5rem 0;
+  }
+
+  .about-media {
+    min-height: 18rem;
+    border-radius: 1.2rem;
+  }
+
   .feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .about-copy {
+    gap: 1rem;
+  }
+
+  .about-blurb > div {
+    padding: 0.95rem 1rem;
   }
 }

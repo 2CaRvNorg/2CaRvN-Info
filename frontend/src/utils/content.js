@@ -69,10 +69,9 @@ export const whyChooseReasons = [
 
 export const contactDetails = {
   address: '123 Learning Hub, Knowledge Park, Bangalore, Karnataka 560001',
-  phone: '+91 98765 43210',
-  email: 'info@2carvnacademy.com',
-  website: 'www.2carvnacademy.com',
-  instagram: '@2carvn.academy',
+  phone: '+91 93923 54345',
+  email: 'projectcarvn@gmail.com',
+  instagram: '2carvn_academy',
 };
 
 export const founders = [
