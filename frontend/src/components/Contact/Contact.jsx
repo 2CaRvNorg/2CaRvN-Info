@@ -1,5 +1,5 @@
 import { FiMapPin, FiPhone, FiMail, FiInstagram, FiMessageCircle } from 'react-icons/fi';
-import { contactDetails, founders, whoCanJoin, admissionCopy } from '../../utils/content';
+import { contactDetails, founders, whoCanJoin} from '../../utils/content';
 import './Contact.css';
 
 function Contact() {

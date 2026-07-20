@@ -4,7 +4,6 @@ export const navItems = [
   { label: 'Courses', href: '#courses' },
   { label: 'Schedule', href: '#schedule' },
   { label: 'Why Us', href: '#why-choose' },
-  { label: 'Admissions', href: '#admissions' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -19,6 +18,7 @@ export const aboutDetails = {
   lead: 'At 2Carvn Academy, we believe education is more than textbooks and exams.',
   focus: ['Creativity', 'Communication', 'Confidence', 'Critical Thinking', 'Practical Learning'],
   mission: 'Our mission is to inspire and prepare students for future careers, lifelong learning, and making a positive impact in the world.',
+  image: 'https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80',
 };
 
 export const courseCategories = [
@@ -32,7 +32,7 @@ export const courseCategories = [
       'Public Speaking',
       'Professional Communication',
     ],
-    image: '/images/design.svg',
+    image: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Technical + Verbal Communication',
@@ -44,7 +44,40 @@ export const courseCategories = [
       'Public Speaking',
       'Professional Communication',
     ],
-    image: '/images/coding.svg',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80',
+  },
+];
+
+export const galleryItems = [
+  {
+    title: 'Design Workshop in Action',
+    category: 'Design',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Students Coding Together',
+    category: 'Coding',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Hands-on Workshop Learning',
+    category: 'Workshop',
+    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Presentation Practice Session',
+    category: 'Presentation',
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Certificate Ceremony',
+    category: 'Certificates',
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80',
+  },
+  {
+    title: 'Community Event Moments',
+    category: 'Events',
+    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -83,5 +116,4 @@ export const footerTagline = 'Discover your potential. Develop your skills. Desi
 
 export const whoCanJoin = 'Students from 7th, 8th & 9th Class who are curious to learn new skills, improve communication and build a strong future.';
 
-export const admissionCopy = 'Every child is unique and full of potential. At 2Carvn Academy, we help young minds discover their interests, build essential skills and grow into confident, capable individuals ready for the future.';
 

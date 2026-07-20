@@ -10,10 +10,8 @@ function Navbar() {
     <header className="navbar-shell">
       <nav className="navbar container">
         <a className="brand" href="#home">
-          <span className="brand-mark">2</span>
-          <span>
-            <strong>2CARVN</strong>
-            <small>Academy</small>
+          <span className="brand-mark">
+            <img src="/images/logomain.png" alt="2CaRvN Academy" />
           </span>
         </a>
 
@@ -27,7 +25,6 @@ function Navbar() {
               {item.label}
             </a>
           ))}
-          <a className="nav-cta" href="#admissions">Join Now</a>
         </div>
       </nav>
     </header>

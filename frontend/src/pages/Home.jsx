@@ -4,13 +4,12 @@ import 'aos/dist/aos.css';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useLenis } from '../hooks/useLenis';
-import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import About from '../components/About/About';
 import Courses from '../components/Courses/Courses';
+import Gallery from '../components/Gallery/Gallery';
 import Schedule from '../components/Schedule/Schedule';
 import WhyChoose from '../components/WhyChoose/WhyChoose';
-import Admissions from '../components/Admissions/Admissions';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
@@ -48,14 +47,13 @@ function Home() {
   return (
     <div className="page-shell">
       <div id="cursor-glow" className="cursor-glow" />
-      <Navbar />
       <main>
         <Hero />
         <About />
         <Courses />
+        <Gallery />
         <Schedule />
         <WhyChoose />
-        <Admissions />
         <Contact />
       </main>
       <Footer />

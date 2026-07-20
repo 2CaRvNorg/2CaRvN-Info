@@ -15,7 +15,7 @@ function Footer() {
           <h4>Quick Links</h4>
           <a href="#about">About</a>
           <a href="#courses">Courses</a>
-          <a href="#admissions">Admissions</a>
+          
         </div>
         <div>
           <h4>Contact</h4>

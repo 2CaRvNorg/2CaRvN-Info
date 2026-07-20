@@ -3,8 +3,8 @@
   top: 0;
   z-index: 40;
   backdrop-filter: blur(24px);
-  background: rgba(11, 15, 25, 0.68);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(8, 8, 10, 0.92);
+  border-bottom: 1px solid rgba(212, 181, 92, 0.18);
 }
 
 .navbar {
@@ -18,34 +18,29 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.8rem;
   color: var(--white);
   text-decoration: none;
 }
 
-.brand strong {
-  display: block;
-  font-size: 1rem;
-  letter-spacing: 0.18em;
-}
-
-.brand small {
-  display: block;
-  color: var(--text-gray);
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-}
-
 .brand-mark {
-  display: inline-grid;
-  place-items: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  background: linear-gradient(135deg, rgba(255, 190, 95, 0.24), rgba(255, 110, 0, 0.18));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-  color: white;
-  font-weight: 700;
+  box-shadow:
+    0 16px 40px rgba(255, 140, 0, 0.18),
+    0 8px 20px rgba(0, 0, 0, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 210, 120, 0.2);
+}
+
+.brand-mark img {
+  width: 9rem;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 0 12px rgba(255, 205, 108, 0.75));
 }
 
 .nav-links {

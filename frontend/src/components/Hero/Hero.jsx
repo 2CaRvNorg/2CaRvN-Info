@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 import { FiPlayCircle, FiChevronDown } from 'react-icons/fi';
 import { heroStats } from '../../utils/content';
+import heroPoster from '../../assets/hero.png';
 import './Hero.css';
 
 function Hero() {
   return (
     <section id="home" className="hero-section">
-      <video className="hero-video" autoPlay muted loop playsInline poster="/images/hero.svg">
+      <video className="hero-video" autoPlay muted loop playsInline poster={heroPoster}>
         <source src="/videos/hero.mp4" type="video/mp4" />
       </video>
       <div className="hero-overlay" />
@@ -21,7 +22,6 @@ function Hero() {
           <h1>2CARVN ACADEMY</h1>
           <p className="hero-subheading">Think. Create. Communicate. Innovate. Lead.</p>
           <div className="hero-actions">
-            <a className="btn btn-primary" href="#admissions">Join Now</a>
             <a className="btn btn-secondary" href="#contact"><FiPlayCircle /> Contact Us</a>
           </div>
           <div className="hero-stats">
